@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* All */
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #333;
+    color: #FFF;
+}
+
+/* Typography */
+
+p{ 
+    font-size: 14px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+h3
+    font-size: 18px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+h6{
+    font-size: 10px;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* Grid */
+.row-25, .row-50, .row-75, .row-100{
+    float: left;
+    position: relative;
+    padding: 15px;
+}
+
+.row-25 {
+    width: 25%;
+}
+
+.row-50 {
+    width: 50%;
+}
+
+
+.row-75 {
+    width: 75%;
+}
+
+
+.row-100 {
+    width: 100%;
+}
+
+
+/* Margins */
+.m-0{
+    margin: 0;
+}
+
+.m-b-0{
+    margin-bottom: 0;
+}
+
+.m-b-5{
+    margin-bottom: 5px;
+}
+
+.m-b-10{
+    margin-bottom: 10px;
+}
+
+.m-b-15{
+    margin-bottom: 15px;
+}
+
+.m-b-20{
+    margin-bottom: 20px;
+}
+
+.m-t-0{
+    margin-top: 0;
+}
+
+.m-t-5{
+    margin-top: 5px;
+}
+
+.m-t-10{
+    margin-top: 10px;
+}
+
+.m-t-15{
+    margin-top: 15px;
+}
+
+.m-t-20{
+    margin-top: 20px;
+}
+
+
+/* Paddings */
+.p-0{
+    padding: 0;
+}
+
+.p-b-0{
+    padding-bottom: 0;
+}
+
+.p-b-5{
+    padding-bottom: 5px;
+}
+
+.p-b-10{
+    padding-bottom: 10px;
+}
+
+.p-b-15{
+    padding-bottom: 15px;
+}
+
+.p-b-20{
+    padding-bottom: 20px;
+}
+
+.p-t-0{
+    padding-top: 0;
+}
+
+.p-t-5{
+    padding-top: 5px;
+}
+
+.p-t-10{
+    padding-top: 10px;
+}
+
+.p-t-15{
+    padding-top: 15px;
+}
+
+.p-t-20{
+    padding-top: 20px;
+}
+
+.p-l-5{
+    padding-left: 5px;
+}
+
+.p-l-10{
+    padding-left: 10px;
+}
+
+.p-l-15{
+    padding-left: 15px;
+}
+
+.p-l-20{
+    padding-left: 20px;
+}
+
+.p-r-5{
+    padding-right: 5px;
+}
+
+.p-r-10{
+    padding-right: 10px;
+}
+
+.p-r-15{
+    padding-right: 15px;
+}
+
+.p-r-20{
+    padding-right: 20px;
+}
+
+/* Colors*/
+.bg-grey{
+    background-color: #333;
+}
+
+.font-grey{
+    color: #333;
+}
+
+.bg-green{
+    background-color: #4CAF50;
+}
+
+.font-green{
+    color: #4CAF50;
+}
+
+.bg-white{
+    background-color: #FFF;
+}
+
+.font-white{
+    color: #FFF;
+}
+
+.font-red{
+   color: #F00; 
+}
+
+.bg-red{
+    background-color: #F00;
+}
+
+/* Alignments*/
+.div-c{
+    text-align: center;    
+}
+
+.div-l{
+    text-align: left;
+}
+
+.div-r{
+    text-align: right;
+}
+
+/* Navigation */
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.navigation .left-nav{
+    float: left;
+}
+
+.navigation .right-nav{
+    float: right;
+}
+
+.navigation li {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.navigation li a:hover:not(.active) {/* Current colour does not change when hover */
+    background-color: #111;
+}
+
+.navigation .active {
+    background-color: #4CAF50;
+}
+
+.banner{
+    filter: saturate(10);
+    filter: grayscale(0.5)
+}
+
+.tiles{
+    display: block;
+    height: 250px;
+    margin-left: 30px;
+    
+}
+
+
+/* Login and Registration */
+.register-body{
+    background: url(../images/beverage.jpg);
+    background-size: cover;
+}
+
+.login-body{
+    background: url(../images/sftdrink.jpg);
+    background-size: cover;
+}
+
+.login-box{
+    width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"]input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #368C3A;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-box a:hover{
+    color: #39dc79;
+}
+
+/* Contact */
+input{
+    width: 100%;
+    height: 40px;
+}
+
+#msg input{
+    height: 120px;
+}
+
+/* Error Message */
+.error-msg{
+    font-size: 18px;
+    color: #F00;
+    text-align: center;
+    background-color: #FFF;
+}
+
+/* Logged in Message */
+.logged-in-msg{
+    font-size: 12px;
+    color: #FFF;
+    text-align:  right;
+    margin: 0;
+}
+
+/* Dashboards */
+.dashboard-button{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 30px;
+}
+
+.dashboard-button{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background: #4CAF50;
+    padding: 30px;
+    transition: background 0.8s;
+}
+
+.dashboard-button:hover{
+    background: #368C3A;
+}
+
+
+/* Admin User Tables */
+.user{
+    width: 1100px;
+    margin: 0 auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    
+}
+.user th {
+    background-color: #4CAF50;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.user td{
+    border: 1px solid #ddd;
+    padding: 8px;    
+    text-align: center;
+}
+
+
+/* Add Product Form */
+.form-box{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-button{
+    background: #4CAF50;
+    border:  none;
+    transition: background 0.8s;
+    color:  #FFF;
+}
+
+.form-button:hover{
+    cursor: pointer;
+    background: #368C3A;
+}
+
+
+/* Product Page */
+.product-box{
+    border:solid #FFF 1px;
+}
+
+/* Footer */
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 48px;
+    width: 100%;
+    background-color: #4caf50;
+    color:white;
+    text-align: center;
+}
+
+/* Facilities Page */
+.main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row{
+    margin: 8px -16px;
+}
+
+.row, .row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content: {
+    background-color: white;
+    padding: 10px;
+}
